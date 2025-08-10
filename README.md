@@ -1,16 +1,17 @@
-# slp2
+# 📝 Flutter To-Do App with Local Login
 
-A new Flutter project.
+A simple and efficient Flutter To-Do list application featuring local authentication and offline storage.
 
-## Getting Started
+## 🚀 Features
+- **Local Login Authentication** — Username and password must match.No username and password only need to match them
+- **Persistent Login** — Uses `SharedPreferences` to keep users signed in.
+- **Task Management** — Add, edit and delete tasks.
+- **Offline Storage** — Tasks are stored locally with `Hive`.
+- **Logout Functionality** — Clears saved session and returns to login.
 
-This project is a starting point for a Flutter application.
+## 🛠 Tech Stack
+- **Flutter** — Cross-platform UI framework
+- **Hive** — Lightweight NoSQL local database
+- **SharedPreferences** — Persistent key-value storage
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
